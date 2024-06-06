@@ -1,0 +1,59 @@
+.login-container {
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.login-header {
+    font-size: 3rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.login-input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: black;
+    box-shadow: none;
+}
+
+.login-input:focus {
+    outline: black solid 0.1rem;
+}
+
+.login-button {
+    padding: 0.35rem 3rem;
+    margin: 1rem;
+}
+
+.sign-up-route {
+    background: none;
+    color: var(--quaternary);
+    border: none;
+    font-size: 0.75rem;
+    margin: 0.75rem;
+}
+
+.sign-up-route:hover {
+    color: var(--secondary);
+    cursor: pointer;
+    background: none;
+}
+
+.error-text {
+    color: var(--delete);
+    margin: 1rem;
+    font-size: 1rem;
+}

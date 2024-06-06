@@ -1,0 +1,64 @@
+.mfa-container {
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.mfa-header {
+  font-size: 3rem;
+}
+
+.mfa-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.mfa-input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  box-shadow: none;
+}
+
+.mfa-input:focus {
+  outline: black solid 0.1rem;
+}
+
+.mfa-button {
+  padding: 0.35rem 3rem;
+  margin: 1rem;
+}
+
+.mfa-para {
+  width: 50%;
+  text-align: center;
+}
+
+.error-text {
+  color: var(--delete);
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.qr {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.qr-para {
+  margin: auto;
+  width: 50%;
+  line-height: 24px;
+  word-wrap: normal;
+}

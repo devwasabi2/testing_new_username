@@ -1,0 +1,64 @@
+.signup-container {
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.signup-header {
+    font-size: 3rem;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.signup-input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: black;
+    box-shadow: none;
+}
+
+.signup-input:focus {
+    outline: black solid 0.1rem;
+}
+
+.signup-button {
+    padding: 0.35rem 3rem;
+    margin: 1rem;
+}
+
+.login-route {
+    background: none;
+    color: var(--quaternary);
+    border: none;
+    font-size: 0.75rem;
+    margin: 0.75rem;
+}
+
+.login-route:hover {
+    color: var(--secondary);
+    background: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 0.75rem;
+}
+
+.password-requirements {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}

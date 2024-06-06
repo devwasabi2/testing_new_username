@@ -1,0 +1,49 @@
+.confirm-container {
+  padding: 3rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.confirm-header {
+  font-size: 3rem;
+}
+
+.confirm-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.confirm-input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  box-shadow: none;
+}
+
+.confirm-input:focus {
+  outline: black solid 0.1rem;
+}
+
+.confirm-button {
+  padding: 0.35rem 3rem;
+  margin: 1rem;
+}
+
+.confirm-para {
+  width: 50%;
+}
+
+.error-text {
+  color: var(--delete);
+  margin: 1rem;
+  font-size: 1rem;
+}

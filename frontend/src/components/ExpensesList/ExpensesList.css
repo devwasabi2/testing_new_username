@@ -1,0 +1,51 @@
+.expenses-container {
+    overflow-x: auto;
+}
+
+.expenses-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 600px;
+}
+
+.list-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.list-row:nth-child(even) {
+    background-color: var(--tertiary);
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-item:nth-child(1) {
+    grid-column: 1;
+}
+
+.list-item:nth-child(2) {
+    grid-column: 2;
+}
+
+.list-item:nth-child(3) {
+    grid-column: 3;
+}
+
+.list-item:nth-child(4) {
+    grid-column: 4;
+}
+
+.trash-can:hover {
+    cursor: pointer;
+}

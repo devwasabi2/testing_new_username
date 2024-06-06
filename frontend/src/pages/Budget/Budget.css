@@ -1,0 +1,35 @@
+#budget-name {
+    color: var(--primary);
+}
+
+.budget-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25rem 1rem;
+}
+
+.budget-cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.budget-card-container {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.budget-card-container:nth-child(1) {
+    margin-bottom: 2rem;
+}
+
+.budget-list-container {
+    margin: 3rem 1rem;
+}
