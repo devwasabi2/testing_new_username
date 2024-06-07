@@ -4,7 +4,6 @@
    
 2. run the command
    - docker compose up -d
-     in detached mode (this command will run a dockerized postgres db)
      
 3. cd in flyway and run the following commands
    - sudo apt update
