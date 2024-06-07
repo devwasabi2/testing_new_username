@@ -1,6 +1,6 @@
 "# Backend"
 
-1. install docker engine in wsl
+1. install docker engine
    
 2. run the command
    - docker compose up -d
